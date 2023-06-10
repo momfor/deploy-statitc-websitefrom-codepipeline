@@ -1,16 +1,20 @@
 version: 0.2
-
 phases:
   install:
     runtime-versions:
       java: corretto17
-      php: 8.1
     commands:
-      - echo "Installing dependencies..."
-      - npm install
-      - composer install
+      - echo Nothing to do in the install phase
+  pre_build:
+    commands:
+      - echo Nothing to do in the pre_build phase
   build:
     commands:
-      - echo "Building static website..."
-      - npm run build
-      - echo "
+      - echo build started on 'date'
+      - mvn install
+  post_build:
+    commands:
+      - echo build completed on 'date'
+artifacts:
+  files:
+    - 'target/ccdemo.war'
