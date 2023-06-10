@@ -3,18 +3,14 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      nodejs: 16
+      nodejs: 14
+      php: 7.4
     commands:
-      - echo Installing dependencies...
+      - echo "Installing dependencies..."
       - npm install
+      - composer install
   build:
     commands:
-      - echo Building static website...
+      - echo "Building static website..."
       - npm run build
-  post_build:
-    commands:
-      - echo Deploying static website to S3...
-      - aws s3 sync --delete ./build s3://george-cicd-project-2
-artifacts:
-  files:
-    - '**/*'
+      - echo "
