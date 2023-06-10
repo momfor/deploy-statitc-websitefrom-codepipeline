@@ -1,0 +1,9 @@
+{
+    "require": {
+        "aws/aws-sdk-php": "^3.0",
+        "monolog/monolog": "^2.0",
+        "guzzlehttp/guzzle": "^7.0",
+        "slim/slim": "^4.0",
+        "twig/twig": "^3.0"
+    }
+}
