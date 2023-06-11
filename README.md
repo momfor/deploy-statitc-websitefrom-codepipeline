@@ -50,17 +50,75 @@ In this project, i deployed a static website via AWS codepipeline. Below is the 
 
 ## Step 5:  Implementing CI/CD through AWS CodePipeline
 
+### a.Connect GitHub Account to CodePipeline
+
+
 ![image](https://github.com/georgeonalo/Deploy-a-static-website-using-AWS-CodePipeline-S3-and-GitHub-2/assets/115881685/815c0a99-e9c4-414a-8240-6185c343b16a)
 
 ![image](https://github.com/georgeonalo/Deploy-a-static-website-using-AWS-CodePipeline-S3-and-GitHub-2/assets/115881685/80e175df-55aa-4320-9544-86e0edbda7f4)
+
+
+### b.Configure CodePipeline and deploy CI/CD pipeline
 
 ![image](https://github.com/georgeonalo/Deploy-a-static-website-using-AWS-CodePipeline-S3-and-GitHub-2/assets/115881685/2f55f14c-a7ac-46e6-8beb-44dc853510e6)
 
 ### Skip the build stage
 
+
 ![image](https://github.com/georgeonalo/Deploy-a-static-website-using-AWS-CodePipeline-S3-and-GitHub-2/assets/115881685/df7f8ab8-7367-4eac-9574-c278fb60cbd8)
 
+
+
+Review the pipeline, then proceed to “Create pipeline”. Wait for the pipeline to be created.
+
+
+
 ![image](https://github.com/georgeonalo/Deploy-a-static-website-using-AWS-CodePipeline-S3-and-GitHub-2/assets/115881685/b95c2056-a358-4692-8a9c-54679f9278c4)
+
+
+
+Yessssssssss!!!!!!!! the pipeline has been created, next we need to verify it.
+
+
+## Step 6: Verify functionality of CI/CD Pipeline
+
+Go to the github repo and edit any file, in my case i will edit the Readme file, once that is done, you will notice the pipeline is triggered, 
+
+
+![image](https://github.com/georgeonalo/Deploy-a-static-website-using-AWS-CodePipeline-S3-and-GitHub-2/assets/115881685/05d1e8aa-6d4b-4c8f-b464-11032b064a48)
+
+![image](https://github.com/georgeonalo/Deploy-a-static-website-using-AWS-CodePipeline-S3-and-GitHub-2/assets/115881685/99c13783-2ab6-4787-9b09-a989069a2a17)
+
+
+### a: and if you check the s3 bucket, you will find that the readme file has been added
+
+![image](https://github.com/georgeonalo/Deploy-a-static-website-using-AWS-CodePipeline-S3-and-GitHub-2/assets/115881685/868261f3-d373-47b9-a137-b772a79eb1dc)
+
+
+
+
+## Finally, paste the domain name of the cloudfront distribution on a browser to access the website
+
+![image](https://github.com/georgeonalo/Deploy-a-static-website-using-AWS-CodePipeline-S3-and-GitHub-2/assets/115881685/edb65cd2-d565-41c4-a722-46e0afc69541)
+
+
+Yes the website can still be acessed, click on the "tell me more" button to see more
+
+
+![image](https://github.com/georgeonalo/Deploy-a-static-website-using-AWS-CodePipeline-S3-and-GitHub-2/assets/115881685/0ba41b76-34d0-491e-9cbe-6ddb705c219f)
+
+
+
+
+## Conclusion
+
+In conclusion, if you follow all the steps mentioned above, you will succeed in deploying a any static website with AWS Codepipeline using Github and S3 bucket.
+
+
+
+
+
+
 
 
 
