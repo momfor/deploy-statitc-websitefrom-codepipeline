@@ -8,7 +8,7 @@ In this project, i deployed a static website via AWS codepipeline. Below is the 
 
 ##  Project Architectural Diagram
 
-![Untitled Diagram (11)](https://github.com/georgeonalo/Deploy-a-static-website-using-AWS-CodePipeline-S3-and-GitHub-2/assets/115881685/aca74ff0-eef7-42b6-88a9-f948ddb4447b)
+![Untitled Diagram (12)](https://github.com/georgeonalo/Deploy-a-static-website-using-AWS-CodePipeline-S3-and-GitHub-2/assets/115881685/a40b4a8e-f722-4aef-b774-83ba27fe90b2)
 
 
 ## Steps taken to complete this project:
