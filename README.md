@@ -1,17 +1,17 @@
 # Deploy a static website using AWS CodePipeline S3 and GitHub 
 
 
-### Objective
+## Objective
 In this project, i deployed a static website via AWS codepipeline. Below is the architectural diagram that details how to accomplish this task.
 
 
 
-###  Project Architectural Diagram
+##  Project Architectural Diagram
 
 ![Untitled Diagram (11)](https://github.com/georgeonalo/Deploy-a-static-website-using-AWS-CodePipeline-S3-and-GitHub-2/assets/115881685/aca74ff0-eef7-42b6-88a9-f948ddb4447b)
 
 
-### Steps taken to complete this project:
+## Steps taken to complete this project:
 
 ## Step 1: Upload/Push static web files to your GitHub Repo
 
