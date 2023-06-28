@@ -1,4 +1,4 @@
-# Deploy a static website using AWS CodePipeline S3 and GitHub new
+# Deploy a static website using AWS CodePipeline S3 and GitHub 
 
 
 ## Objective
